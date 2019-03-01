@@ -1,0 +1,12 @@
+/* pages/router/food/food.wxss */
+.categories{
+  display: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999
+}
+.categories .item {
+  width: 100%;
+  border: 2px solid #e6e6e6;
+  vertical-align: middle;
+}

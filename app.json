@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/router/food/food",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "丑团",
+    "navigationBarTextStyle": "black"
+  },
+    "tabBar": {
+      "color": "#1EC80A",
+      "borderStyle": "black",
+      "selectedColor": "#961E82",
+      "backgroundColor": "#e9e9e9",
+      "height": "10px",
+      "list": [
+        {
+          "pagePath": "pages/home/home",
+          "iconPath": "/assets/icon/q1.png",
+          "selectedIconPath": "/assets/icon/sq1.png",
+          "text": "主页"
+        },
+        {
+          "pagePath": "pages/mine/mine",
+          "text": "我的",
+          "iconPath": "/assets/icon/q2.png",
+          "selectedIconPath": "/assets/icon/sq2.png"
+        }
+      ]
+    }
+}

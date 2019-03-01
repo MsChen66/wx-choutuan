@@ -1,0 +1,6 @@
+<!--pages/router/food/food.wxml-->
+<view class='categories'>
+  <view class='item' wx:for="{{categories}}" wx:key="{{item.id}}">
+    <text>{{item.title}}</text>
+  </view>
+</view>
